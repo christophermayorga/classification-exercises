@@ -49,7 +49,7 @@ def get_titanic_data(cached=False):
 ###################### Acquire Iris Data ######################
 def new_iris_data():
     '''
-    This function reads the titanic data from the Codeup db into a df,
+    This function reads the iris data from the Codeup db into a df,
     write it to a csv file, and returns the df.
     '''
     # Create SQL query.
@@ -62,7 +62,7 @@ def new_iris_data():
 
 def get_iris_data(cached=False):
     '''
-    This function reads in titanic data from Codeup database and writes data to
+    This function reads in iris data from Codeup database and writes data to
     a csv file if cached == False or if cached == True reads in titanic df from
     a csv file, returns df.
     '''
