@@ -15,4 +15,4 @@ def prep_iris(df):
     df = df.rename(columns={'species_name': 'species'})
     dummy_df = pd.get_dummies(df[['species']], dummy_na=False, drop_first=[True])
     df = pd.concat([df, dummy_df], axis=1)
-    return df.drop(columns=['species'])
+    return df
